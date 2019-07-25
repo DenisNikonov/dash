@@ -1,0 +1,152 @@
+
+.unselectable {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+
+
+
+.white {
+    color: white;
+
+}
+
+
+.menu a {
+    text-decoration:none;
+    color: white;
+
+}
+
+.navbar-bg-black {
+    background-color: #202125; !important;
+
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #ffffff;
+}
+
+.navbar-input-search {
+    background:  #202125;
+    color: white;
+    border: 0;
+}
+
+.navbar-input-search:focus {
+    background-color:  #202125;
+    color: white;
+    box-shadow: none;
+    border-color:  #202125;
+}
+
+.navbar-input-search:focus::-webkit-input-placeholder {
+    color:transparent;
+}
+
+.menu-btn-add {
+    margin-left: 10px;
+    color: #6d1df8;
+    background: white;
+
+}
+.nav-item {
+    padding-left: 8px;
+}
+
+.menu-btn-add-img {
+    color: #6d1df8;
+}
+
+.navigation {
+    height: 65px;
+    box-shadow: 0 1px 2px RGBA( 0, 0, 0, 0.2 );
+}
+
+.navigation-item {
+    padding-top: 1.2%;
+    width: 12%;
+    text-decoration: none;
+    color: #202125;
+    position: relative;
+
+}
+
+.navigation-item:after {
+    position: absolute;
+    width: 0;
+    content:"";
+    height: 2px;
+    background: #6d1df8;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: all .5s;
+}
+
+.navigation-item:hover {
+    color: #202125;
+}
+
+.navigation-item:hover:after {
+    width: 100%;
+}
+
+.navigation-item-active {
+    color: #6d1df8 !important;
+    padding-top: 1.2%;
+    width: 12%;
+    text-decoration: none;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #6d1df8;
+    border-radius: 0 !important;
+}
+.navigation-item-active:hover {
+    color: #6d1df8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
